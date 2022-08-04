@@ -1,0 +1,66 @@
+:root {
+    --color-turquoise: #1abc9c;
+    --color-nephritis: #27ae60;
+    --color-emerald: #2ecc71;
+    --color-peter-river: #3498db;
+    --color-belize-hole: #2980b9;
+    --color-amethyst: #9b59b6;
+    --color-wisteria: #8e44ad;
+    --color-wet-asphalt: #34495e;
+    --color-midnight-blue: #2c3e50;
+    --color-sun-flower: #f1c40f;
+    --color-orange: #f39c12;
+    --color-carrot: #e67e22;
+    --color-pumpkin: #d35400;
+    --color-alizarin: #e74c3c;
+    --color-pomegranate: #c0392b;
+    --color-clouds: #ecf0f1;
+    --color-silver: #bdc3c7;
+    --color-concrete: #95a5a6;
+    --color-asbestos: #7f8c8d;
+
+    --box-shadow-bot: 3px 7px 10px rgba(0, 0, 0, 0.1);
+    --box-shadow-top: -3px -7px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a,
+img,
+button,
+input,
+label,
+select,
+span,
+i {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: var(--color-clouds);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #000;
+
+    display: flex;
+    flex-direction: column;
+}
